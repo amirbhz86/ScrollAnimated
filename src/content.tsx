@@ -29,7 +29,7 @@ const Content = () => {
           85 CHF per night
         </Text>
         <View style={starContainer}>
-          {new Array(5).map(() => {
+          {[0,0,0,0,0].map(() => {
             return (
               <Image style={starImage} source={require('../src/assets/icons/star.png')} />
             )
